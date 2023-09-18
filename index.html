@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/airborne.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AirBorne Soles</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="navbar-image" src="images/airborne.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-3 me-5">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 bg-light text-dark placeholder-color" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="row container-fluid">
+        <div class="col-sm col-md col-lg-8" id="itemList">
+            <!-- item list -->
+        </div>
+        <div class="col-sm col-md col-lg-3 m-3">
+            <h1 class="text-center">Cart List:</h1> <hr>
+            <div class="row">
+                <h5 class="col-7">ITEMS</h5>
+                <h5 class="col-5 ">PRICE</h5>
+            </div>
+            <div class="row">
+                <ul id="cartList" class="col-5 col-xl-7 col-lg-6" >
+                    <!-- item list -->
+                </ul>
+                <ul id="priceList" class="col-6 col-xl-3 col-lg-3 text-center" >
+                     <!-- price list -->
+                </ul>
+                <ul id="delete_btn" class="text-end col-1 col-xl-2 col-lg-3">
+                    <!-- delete button -->
+                </ul>
+            </div>
+            <hr>
+
+            <div id="totalPrice">
+                <!-- total price -->
+            </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="container-fluid row mt-5 p-3 bg-dark text-light text-center">
+        <div class="col-sm col-lg-3 align-self-center">
+            <a href="index.html"><img class="footer_img" src="images/airborne.png" alt=""></a>
+        </div>
+        <div class="col-sm col-lg  mt-3">
+            <p class="quickLinks">Quick Links</p>
+            <ul>
+                <li class="footer_links">Home</li>
+                <li class="footer_links">Products</li>
+                <li class="footer_links">About</li>
+            </ul>
+        </div>
+        <div class="col-sm col-lg  mt-3">
+            <p class="quickLinks">Payment Methods</p>
+            <ul>
+                <li class="footer_pay"><i class="fa-brands fa-cc-mastercard"></i></li>
+                <li class="footer_pay"><i class="fa-brands fa-cc-visa"></i></li>
+                <li class="footer_pay"><i class="fa-brands fa-paypal"></i></li>
+            </ul>
+        </div>
+        <div class="col-sm col-lg  mt-3">
+            <p class="quickLinks">Social Media Links</p>
+            <ul>
+                <li class="footer_socmed"><a href="https://www.facebook.com" class="socmed_img"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li class="footer_socmed"><a href="https://www.instagram.com" class="socmed_img"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li class="footer_socmed"><a href="https://www/youtube.com" class="socmed_img"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                <li class="footer_socmed"><a href="https://www.twitter.com" class="socmed_img"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+      </div>
+      
+    <script src="index.js"></script>
+</body>
+</html>

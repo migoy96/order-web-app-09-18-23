@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-image{
+    width: 100px;
+    height: 80px;
+}
+
+.form-control.me-2.bg-light.text-dark.placeholder-color::placeholder{
+    color: black !important;
+    opacity: 0.4 !important;
+    font-style: italic;
+}
+
+#totalPrice{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.footer_img{
+    width: 150px;
+    height: 150px;
+}
+
+.quickLinks{
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.footer_links{
+    list-style: none;
+    padding: 10px;
+}
+
+.footer_links:hover{
+    font-size: 12.5pt;
+    font-weight: bold;
+    color: rgb(112, 110, 110);
+    transition: 0.4s ease;
+}
+
+.footer_pay{
+    list-style: none;
+    font-size: 25pt;
+}
+
+.footer_socmed{
+    list-style: none;
+    font-size: 16pt;
+    padding: 5px;
+}
+
+.socmed_img{
+    text-decoration: none;
+    color: white;
+}
+
+.socmed_img:hover{
+    color: rgb(112, 110, 110);
+    font-size: 16.5pt;
+    transition: 0.4s ease;
+
+}
