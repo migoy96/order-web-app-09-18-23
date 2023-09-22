@@ -11,37 +11,36 @@
     <title>AirBorne Soles</title>
 </head>
 <body>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "134604286399605");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "134604286399605");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v18.0'
+      });
+    };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="navbar-image" src="images/airborne.png" alt=""></a>
@@ -129,6 +128,9 @@
                 <li class="footer_socmed"><a href="https://www.twitter.com" class="socmed_img"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
             </ul>
         </div>
+      </div>
+      <div class="footer_copy container-fluid">
+        <p>Copyright &copy; 2023 AirBorne Soles by Miguel Carlos Blancaflor</p>
       </div>
       
     <script src="index.js"></script>
