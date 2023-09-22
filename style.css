@@ -70,3 +70,11 @@ body{
     transition: 0.4s ease;
 
 }
+
+.footer_copy{
+    height: 17px;
+    font-size: 9pt;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
